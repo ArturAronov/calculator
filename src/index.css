@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap');
+
+@media (prefers-color-scheme: dark){
+  body{
+    background-color: rgb(32,32,36);
+  }
+}
+
+@media (prefers-color-scheme: light){
+  body{
+    background-color: rgb(237,238,237);
+  }
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  user-select: none;
+}
+
+button:focus {
+  outline: 0;
+}
+
+.calculator {
+  
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: 1px solid rgb(87, 87, 87);
+  border-radius: 10px;
+}
+
+.screen {
+  height: 100px;
+  overflow: hidden;
+  position: relative;
+  max-width: 280px;
+}
+
+.result {
+  position: absolute;
+  font-size: 25px;
+  bottom: 0;
+  right: 0;
+  padding: 8px;
+}
+
+
+.screen {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  background-color: rgb(38, 42, 44);
+  color: rgb(255,255,255);
+  word-break: break-all;
+}
+
+.button {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  width: 70px;
+  height: 60px;
+  border: 1px solid rgb(38, 42, 44);
+  padding: -1px;
+  font-size: 30px;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  margin: -1px;
+  position: relative;
+}
+
+.nums {
+  display: flex;
+  flex-direction: wrap;
+}
+
+#zero {
+  flex-grow: 2;
+  border-bottom-left-radius: 10px;
+}
+
+#equal {
+  border-bottom-right-radius: 10px;
+}
+
+#plusMinus{
+  font-size: 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+#plus{
+  font-size: 20px;
+
+  align-items: flex-start;
+}
+
+#minus{
+  font-size: 20px;
+
+  margin-bottom: -2px;
+  display: flex;
+  align-items: flex-end;
+}
+
+#slash{
+  transform: rotate(10deg)
+}
+
+.dark {
+  background-color: rgb(88, 89, 89)
+}
+
+.darkgray {
+  background-color: rgb(60, 62, 60);
+}
+.darkgray:active {
+  background-color: rgb(92, 101, 104)
+}
+
+.orange {
+  background-color: rgb(255, 159, 4);
+}
+.orange:active{
+  background-color: rgb(203,125,40)
+}
+
+.lightgray {
+  background-color: rgb(92,101,104)
+}
+.lightgray:active{
+  background-color: rgb(180,180,180)
+}
