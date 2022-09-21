@@ -1,30 +1,37 @@
 # React Calculator
 
+## Live Site
+https://calculator-arturaronov.vercel.app/
+
 ## Table of Content
-1. [Snapshots](#snapshots)   
-2. [Color Schemes](#color-schemes)   
-3. [Inspiration](#inspiration)    
-4. [Useful Links](#useful-links)   
-5. [Function & Variables Explanations](#function-&-variable-explanations)   
+1. [Stack](#stack)
+2. [Snapshots](#snapshots)   
+3. [Color Schemes](#color-schemes)   
+4. [Inspiration](#inspiration)    
+5. [Useful Links](#useful-links)   
+6. [Function & Variables Explanations](#function-&-variable-explanations)   
 
+### Stack
+- React
+- Vanilla CSS
 
-## Snaphosts
+### Snaphosts
 ![Artur Aronov React Calculator App Snapshots](./imgs/snapshots.png)   
 
 
-## Color Schemes   
+### Color Schemes   
 ![Artur Aronov React Calculator App Color Schemes](./imgs/colors.png)    
 
 
-## Inspiration
+### Inspiration
 ![Artur Aronov React Calculator App Inspiration](./imgs/inspiration.png)    
 
 
-## Useful Links
+### Useful Links
 [Converting string into mathematical operator - Stack Overflow](https://stackoverflow.com/questions/13077923/how-can-i-convert-a-string-into-a-math-operator-in-javascript)
 
 
-## Function & Variables Explanations
+### Function & Variables Explanations
 ### Functions design notes
 User input is stored in two different arrays - ``firstBuffer`` for initial input and ``secondBuffer`` array when operators (such as +, -, %, x) gets pressed. The initial values pressed by user get stored in ``firstBuffer``. Once user presses one of the operator buttons, the new value values get stored in the ``secondBuffer``array.
 
